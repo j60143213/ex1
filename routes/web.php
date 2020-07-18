@@ -29,3 +29,7 @@ Route::get('/user', 'UserController@index');
 Route::get('/user/show/{id1}', 'UserController@show');
 Route::get('/user/update/{id2}', 'UserController@update');
 
+
+Route::get('/todo', 'TodoController@index');
+Route::get('/todo/show/{id}', 'TodoController@show');
+Route::get('/todo/delete/{id}', 'TodoController@delete');
